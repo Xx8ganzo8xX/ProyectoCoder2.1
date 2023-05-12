@@ -1,61 +1,11 @@
-section {
-  background-color: rgb(0, 0, 0);
-  padding: 1rem 0rem 1rem 0rem;
-}
-
-.defaultimg {
-  width: 15%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(255, 255, 255);
-}
-
-.btn {
-  background-color: rgb(57, 36, 219);
-  border: solid black;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .movile {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .pc {
-    display: none;
-  }
-}
-.form {
-  padding: 2rem 6rem 2rem 6rem;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #c7940a;
-}
-
 footer {
   background-color: black;
   color: white;
   bottom: 0;
   width: 100%;
   font-size: 16px;
+  
 }
-
 footer * {
   box-sizing: border-box;
   border: none;
@@ -65,13 +15,11 @@ footer * {
 .row {
   padding: 1em 1em;
 }
-
 .row.primary {
   display: grid;
   grid-template-columns: 3fr 2fr 4fr;
   align-items: stretch;
 }
-
 .column {
   width: 100%;
   display: flex;
@@ -79,7 +27,6 @@ footer * {
   padding: 0 2em;
   min-height: 15em;
 }
-
 h3 {
   width: 100%;
   text-align: left;
@@ -87,7 +34,6 @@ h3 {
   font-size: 1.4em;
   white-space: nowrap;
 }
-
 ul {
   list-style: none;
   display: flex;
@@ -95,26 +41,21 @@ ul {
   padding: 0;
   margin: 0;
 }
-
 li:not(:first-child) {
   margin-top: 1rem;
 }
-
 ul li a {
   color: #a7a7a7;
   text-decoration: none;
 }
-
 ul li a:hover {
   color: #c7940a;
 }
-
 .about p {
   text-align: justify;
   line-height: 2;
   margin: 0;
 }
-
 input,
 div .social {
   display: flex;
@@ -123,7 +64,6 @@ div .social {
   flex-direction: row;
   margin-top: 0.5em;
 }
-
 .social i {
   color: #bac6d9;
 }
@@ -140,8 +80,3 @@ div .social {
     grid-template-columns: 1fr;
   }
 }
-.paddingnv {
-  padding: 2rem 0 2rem 0;
-}
-
-/*# sourceMappingURL=style.css.map */
